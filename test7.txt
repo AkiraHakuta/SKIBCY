@@ -1,0 +1,8 @@
+/* test7.txt (map) */
+#include "header.h"
+
+[add3] := [add][3];
+[list2431] := [cons][2]([cons][4]([cons][3]([cons][1][nil])));
+
+[map_add3_list2431] := [map][add3][list2431];
+[nth_map_add3_list2431_2_xy] = [nth][map_add3_list2431][2]xy;

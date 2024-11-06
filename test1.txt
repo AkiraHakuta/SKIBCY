@@ -1,0 +1,10 @@
+/* test1.txt */
+
+Ix;
+Kfx;
+Sfgx;
+Bfgx;
+Cfgx;
+S'ufgx;
+B'ufgx;
+C'ufgx;

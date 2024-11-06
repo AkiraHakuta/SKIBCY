@@ -1,0 +1,5 @@
+/* test4.txt (pick) */
+#include "header.h"
+
+[list2431] := [cons][2]([cons][4]([cons][3]([cons][1][nil])));
+[pick_2_list2431_xy] = [pick][2][list2431]xy;

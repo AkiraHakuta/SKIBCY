@@ -1,0 +1,6 @@
+/* test8.txt (fold_left) */
+#include "header.h"
+
+[list2431] := [cons][2]([cons][4]([cons][3]([cons][1][nil])));
+
+[fold_left_max_list2431_xy] = [fold_left][max_x_y][0][list2431]xy;

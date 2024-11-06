@@ -1,0 +1,6 @@
+/* test6.txt (sum list) */
+#include "header.h"
+
+[list2431] := [cons][2]([cons][4]([cons][3]([cons][1][nil])));
+
+[sum_list2431_xy] = [sum_list][list2431]xy;

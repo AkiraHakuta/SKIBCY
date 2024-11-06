@@ -1,0 +1,8 @@
+/* test5.txt (factorial) */
+#include "header.h"
+
+[fact_x_3_xy] = [fact_x][3]xy;
+[fact_fx_4_xy] = Y[fact_fx][4]xy;
+[fact_fx_5] |= [Y][fact_fx][5];
+[100] |= [power][2][10];
+[sub_fact_fx_5_100_xy] = [sub][fact_fx_5][100]xy;// 5! - 100 = 120 - 100 = 20
