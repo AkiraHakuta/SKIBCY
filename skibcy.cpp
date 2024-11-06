@@ -55,15 +55,15 @@ void printTree(Node* root, Trunk *prev, bool isRight)
     printTree(root->right, trunk, true);
 
     if (!prev) {
-        trunk->str = "———";
+        trunk->str = "---";
     }
     else if (isRight)
     {
-        trunk->str = "r———";
+        trunk->str = "r---";
         prev_str = "   |";
     }
     else {
-        trunk->str = "l———";
+        trunk->str = "l---";
         prev->str = prev_str;
     }
 

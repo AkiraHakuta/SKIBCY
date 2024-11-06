@@ -6,26 +6,25 @@ void Convert::walkBinaryTree(Node* node, bool* changed_ptr) {
     /*
     Sfgx
 
-     ￬ conversion to binary tree
+     -- conversion to binary tree -->
 
-        r———x
-    ———
-       |    r———g
-        l———
-           |    r———f
-            l———
-                l———S
+        r---x
+    ---
+       |    r---g
+        l---
+           |    r---f
+            l---
+                l---S
 
-     ￬ reduction
+     -- reduction -->
 
-            r———x
-        r———
-       |    l———g
-    ———
-       |    r———x
-        l———
-            l———f
-
+            r---x
+        r---
+       |    l---g
+    ---
+       |    r---x
+        l---
+            l---f
     */
     if (node == nullptr) 
         return; 
