@@ -22,21 +22,21 @@ the next expression is "not x"
 ``` 
 C(CI(KI))Kx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———K
-    l———
-       |            r———I
-       |        r———
-       |       |    l———K
-       |    r———
-       |   |   |    r———I
-       |   |    l———
-       |   |        l———C
-        l———
-            l———C
+    r---x
+---
+   |    r---K
+    l---
+       |            r---I
+       |        r---
+       |       |    l---K
+       |    r---
+       |   |   |    r---I
+       |   |    l---
+       |   |        l---C
+        l---
+            l---C
 ```
 
 ### Running the tests 
@@ -65,172 +65,172 @@ trace:
 
 Ix
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-    l———I
+    r---x
+---
+    l---I
 
-  ￬ reduction
+ -- reduction -->
 
-———x
+---x
 
 
 Kfx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———f
-    l———
-        l———K
+    r---x
+---
+   |    r---f
+    l---
+        l---K
 
-  ￬ reduction
+ -- reduction -->
 
-———f
+---f
 
 
 Sfgx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———g
-    l———
-       |    r———f
-        l———
-            l———S
+    r---x
+---
+   |    r---g
+    l---
+       |    r---f
+        l---
+            l---S
 
-  ￬ reduction
+ -- reduction -->
 
-        r———x
-    r———
-   |    l———g
-———
-   |    r———x
-    l———
-        l———f
+        r---x
+    r---
+   |    l---g
+---
+   |    r---x
+    l---
+        l---f
 
 
 Bfgx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———g
-    l———
-       |    r———f
-        l———
-            l———B
+    r---x
+---
+   |    r---g
+    l---
+       |    r---f
+        l---
+            l---B
 
-  ￬ reduction
+ -- reduction -->
 
-        r———x
-    r———
-   |    l———g
-———
-    l———f
+        r---x
+    r---
+   |    l---g
+---
+    l---f
 
 
 Cfgx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———g
-    l———
-       |    r———f
-        l———
-            l———C
+    r---x
+---
+   |    r---g
+    l---
+       |    r---f
+        l---
+            l---C
 
-  ￬ reduction
+ -- reduction -->
 
-    r———g
-———
-   |    r———x
-    l———
-        l———f
+    r---g
+---
+   |    r---x
+    l---
+        l---f
 
 
 S'ufgx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———g
-    l———
-       |    r———f
-        l———
-           |    r———u
-            l———
-                l———S'
+    r---x
+---
+   |    r---g
+    l---
+       |    r---f
+        l---
+           |    r---u
+            l---
+                l---S'
 
-  ￬ reduction
+ -- reduction -->
 
-        r———x
-    r———
-   |    l———g
-———
-   |        r———x
-   |    r———
-   |   |    l———f
-    l———
-        l———u
+        r---x
+    r---
+   |    l---g
+---
+   |        r---x
+   |    r---
+   |   |    l---f
+    l---
+        l---u
 
 
 B'ufgx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———g
-    l———
-       |    r———f
-        l———
-           |    r———u
-            l———
-                l———B'
+    r---x
+---
+   |    r---g
+    l---
+       |    r---f
+        l---
+           |    r---u
+            l---
+                l---B'
 
-  ￬ reduction
+ -- reduction -->
 
-        r———x
-    r———
-   |    l———g
-———
-   |    r———f
-    l———
-        l———u
+        r---x
+    r---
+   |    l---g
+---
+   |    r---f
+    l---
+        l---u
 
 
 C'ufgx
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———x
-———
-   |    r———g
-    l———
-       |    r———f
-        l———
-           |    r———u
-            l———
-                l———C'
+    r---x
+---
+   |    r---g
+    l---
+       |    r---f
+        l---
+           |    r---u
+            l---
+                l---C'
 
-  ￬ reduction
+ -- reduction -->
 
-    r———g
-———
-   |        r———x
-   |    r———
-   |   |    l———f
-    l———
-        l———u
+    r---g
+---
+   |        r---x
+   |    r---
+   |   |    l---f
+    l---
+        l---u
 ```
 
 ```
@@ -248,43 +248,43 @@ trace:
 
 Yf
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———f
-———
-    l———Y
+    r---f
+---
+    l---Y
 
-  ￬ reduction
+ -- reduction -->
 
-        r———f
-    r———
-   |    l———Y
-———
-    l———f
+        r---f
+    r---
+   |    l---Y
+---
+    l---f
 
-  ￬ reduction
+ -- reduction -->
 
-            r———f
-        r———
-       |    l———Y
-    r———
-   |    l———f
-———
-    l———f
+            r---f
+        r---
+       |    l---Y
+    r---
+   |    l---f
+---
+    l---f
 
-  ￬ reduction
+ -- reduction -->
 
-                r———f
-            r———
-           |    l———Y
-        r———
-       |    l———f
-    r———
-   |    l———f
-———
-    l———f
+                r---f
+            r---
+           |    l---Y
+        r---
+       |    l---f
+    r---
+   |    l---f
+---
+    l---f
 
-  ￬ reduction
+ -- reduction -->
   .
   .
   .
@@ -305,56 +305,55 @@ trace:
 
 S(K(SI))Kxy
 
-  ￬ conversion to binary tree
+ -- conversion to binary tree -->
 
-    r———y
-———
-   |    r———x
-    l———
-       |    r———K
-        l———
-           |            r———I
-           |        r———
-           |       |    l———S
-           |    r———
-           |   |    l———K
-            l———
-                l———S
+    r---y
+---
+   |    r---x
+    l---
+       |    r---K
+        l---
+           |            r---I
+           |        r---
+           |       |    l---S
+           |    r---
+           |   |    l---K
+            l---
+                l---S
 
-  ￬ reduction
+ -- reduction -->
 
-    r———y
-———
-   |        r———x
-   |    r———
-   |   |    l———K
-    l———
-       |    r———x
-        l———
-           |        r———I
-           |    r———
-           |   |    l———S
-            l———
-                l———K
+    r---y
+---
+   |        r---x
+   |    r---
+   |   |    l---K
+    l---
+       |    r---x
+        l---
+           |        r---I
+           |    r---
+           |   |    l---S
+            l---
+                l---K
 
-  ￬ reduction
+ -- reduction -->
 
-        r———y
-    r———
-   |   |    r———x
-   |    l———
-   |        l———K
-———
-   |    r———y
-    l———
-        l———I
+        r---y
+    r---
+   |   |    r---x
+   |    l---
+   |        l---K
+---
+   |    r---y
+    l---
+        l---I
 
-  ￬ reduction
+ -- reduction -->
 
-    r———x
-———
-    l———y
-
+    r---x
+---
+    l---y
 ``` 
 
 ```
@@ -452,32 +451,32 @@ see [Lambda2Combinator](https://github.com/AkiraHakuta/Lambda2Combinator)
 result (binary tree):
 
 [list2431] :=
-                r———[nil]
-            r———
-           |   |    r———[1]
-           |    l———
-           |        l———[cons]
-        r———
-       |   |    r———[3]
-       |    l———
-       |        l———[cons]
-    r———
-   |   |    r———[4]
-   |    l———
-   |        l———[cons]
-———
-   |    r———[2]
-    l———
-        l———[cons]
+                r---[nil]
+            r---
+           |   |    r---[1]
+           |    l---
+           |        l---[cons]
+        r---
+       |   |    r---[3]
+       |    l---
+       |        l---[cons]
+    r---
+   |   |    r---[4]
+   |    l---
+   |        l---[cons]
+---
+   |    r---[2]
+    l---
+        l---[cons]
 
 [pick_2_list2431_xy] =
-            r———y
-        r———
-       |    l———x
-    r———
-   |    l———x
-———
-    l———x
+            r---y
+        r---
+       |    l---x
+    r---
+   |    l---x
+---
+    l---x
 ``` 
 
   

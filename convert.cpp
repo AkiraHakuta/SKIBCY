@@ -182,9 +182,9 @@ int counter;
 Node* Convert::eval(Node* n){
     if (trace){
         if (counter == 0)
-            cout << "\n  ￬ conversion to binary tree\n" << endl;
+            cout << "\n -- conversion to binary tree -->\n" << endl;
         else
-            cout << "\n  ￬ reduction\n" << endl;
+            cout << "\n -- reduction -->\n" << endl;
         printTree(n, nullptr, false);
         counter++;        
     }
