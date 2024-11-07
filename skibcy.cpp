@@ -90,8 +90,11 @@ int main(int argc, const char *args[])
         trace = false;
 
     ifstream ifs;
-    Node* n;
     ifs.open(args[1]);
+    if (ifs.fail()){
+        cout  << "cannot open " << args[1] << endl;
+        exit(1);
+    }
     ANTLRInputStream input0(ifs);
     combinatorLexer lexer0(&input0);    
     CommonTokenStream tokens0(&lexer0);
