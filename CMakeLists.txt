@@ -25,4 +25,4 @@ include_directories(${ANTLR_combinatorGrammar_OUTPUT_DIR})
 
 add_executable(skibcy skibcy.cpp convert.cpp ${ANTLR_combinatorGrammar_CXX_OUTPUTS})
 target_link_libraries(skibcy antlr4_static)
-target_link_libraries(skibcy -static -lstdc++ -lgcc -lwinpthread)
+# target_link_libraries(skibcy -static -lstdc++ -lgcc -lwinpthread)
